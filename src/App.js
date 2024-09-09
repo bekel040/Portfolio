@@ -1,32 +1,7 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-// App.js
 import React from 'react';
 import { Link } from 'react-scroll';
-import './App.css'; // Add your CSS styles here
+import './App.css'; 
 import BookShelf from './img/book-shelf.png';
 import StorySharing from './img/StoryDetails.png';
 import Typing from './img/Typing-bro.svg';
@@ -78,10 +53,10 @@ const App = () => {
             speed={50}
             style={{ fontSize: '3em', display: 'inline-block' }}
           />
-          {/* <h1>Hi, I am Asanti Bekele</h1> */}
           <p>Full-Stack Developer</p>
+          <p> Welcome! You'll be able to know a little bit about me and get to see a few of the projects I have worked on. </p>
          
-          <button className="resume-btn">Resume</button>
+          {/* <button className="resume-btn">Resume</button> */}
 
         </div>
         
